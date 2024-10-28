@@ -1,0 +1,72 @@
+body{
+    background-image: url(image/drapeaux\ du\ brésil.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.bandeau {
+    background-color: #333; 
+    padding: 10px; 
+}
+
+.menu {
+    list-style-type: none; /* Supprime les puces */
+    margin: 0; /* Supprime la marge par défaut */
+    padding: 0; /* Supprime le remplissage par défaut */
+    display: flex; /* Affiche les éléments en ligne */
+    justify-content: space-around; /* Espace entre les éléments */
+}
+
+.menu li {
+    margin: 0 15px; /* Marge entre les éléments */
+}
+
+.menu a {
+    color: white; /* Couleur du texte */
+    text-decoration: none; /* Supprime le soulignement */
+    padding: 10px 15px; /* Espacement interne */
+    transition: background-color 0.3s; /* Effet de transition */
+}
+
+.menu a:hover {
+    background-color: #555; /* Couleur de fond au survol */
+}
+
+.texte-2 {
+        flex: 1;
+        font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    color:rgb(67, 67, 252);  
+}
+
+.container3 h2 {
+    text-align: center;
+}
+
+.container5 h2 {
+    text-align: center;
+}
+
+.container6 h2 {
+    text-align: center;
+}
+
+.container5 img {
+    display: block;
+    margin: auto;
+    height: 400px;
+}
+
+.container7 {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+}
+

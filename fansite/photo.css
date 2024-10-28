@@ -1,0 +1,56 @@
+
+
+.bandeau {
+    background-color: #333; /* Couleur de fond */
+    padding: 10px; /* Espacement autour du menu */
+}
+
+.menu {
+    list-style-type: none; /* Supprime les puces */
+    margin: 0; /* Supprime la marge par défaut */
+    padding: 0; /* Supprime le remplissage par défaut */
+    display: flex; /* Affiche les éléments en ligne */
+    justify-content: space-around; /* Espace entre les éléments */
+}
+
+.menu li {
+    margin: 0 15px; /* Marge entre les éléments */
+}
+
+.menu a {
+    color: white; /* Couleur du texte */
+    text-decoration: none; /* Supprime le soulignement */
+    padding: 10px 15px; /* Espacement interne */
+    transition: background-color 0.3s; /* Effet de transition */
+}
+
+.menu a:hover {
+    background-color: #555; /* Couleur de fond au survol */
+}
+
+.mosaic {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.mosaic img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+ .mosaic .large {
+    grid-column: span 2;
+    grid-row: span 2;
+ }
+
+ .mosaic .wide {
+    grid-column: span 2;
+ }
+
+ .mosaic .tall {
+    grid-row: span 2;
+ }
+

@@ -1,0 +1,128 @@
+body{
+    background-image: url(image/Flag_of_Brazil.svg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.bandeau {
+    background-color: #333; /* Couleur de fond */
+    padding: 10px; /* Espacement autour du menu */
+}
+
+.menu {
+    list-style-type: none; /* Supprime les puces */
+    margin: 0; /* Supprime la marge par défaut */
+    padding: 0; /* Supprime le remplissage par défaut */
+    display: flex; /* Affiche les éléments en ligne */
+    justify-content: space-around; /* Espace entre les éléments */
+}
+
+.menu li {
+    margin: 0 15px; /* Marge entre les éléments */
+}
+
+.menu a {
+    color: white; /* Couleur du texte */
+    text-decoration: none; /* Supprime le soulignement */
+    padding: 10px 15px; /* Espacement interne */
+    transition: background-color 0.3s; /* Effet de transition */
+}
+
+.menu a:hover {
+    background-color: #555; /* Couleur de fond au survol */
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.container img {
+    margin-right: 20px;
+    width: 400px;
+}
+
+.text {
+    max-width: 600px;
+    width: 45%;
+    padding-right: 20px;
+}
+
+.video {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.video iframe {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+}
+
+.container2 {
+    display: flex;
+    gap: 20px;
+}
+
+.container2 h2{
+    text-align: center;
+    margin: 0;
+}
+
+.biographie{
+    display: flex;
+    align-items: flex-start;
+}
+
+.container2 img {
+    margin-right: 20px;
+    width: 220px;
+    height: 505px;
+}   
+
+.texte-2 {
+    flex: 1;
+    font-size: 20px;
+}
+
+.container4 img {
+    width: 100%;
+}
+
+.container5 img{
+    height: 457px;
+    width: 571.27px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0,3s
+    ease;
+}
+
+footer a:hover{
+    color: #ff6600;
+}
+
+ 
