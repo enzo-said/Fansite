@@ -1,25 +1,25 @@
 .bandeau {
-    background-color: #333; /* Couleur de fond */
-    padding: 10px; /* Espacement autour du menu */
+    background-color: #333; 
+    padding: 10px; 
 }
 
 .menu {
-    list-style-type: none; /* Supprime les puces */
-    margin: 0; /* Supprime la marge par défaut */
-    padding: 0; /* Supprime le remplissage par défaut */
-    display: flex; /* Affiche les éléments en ligne */
-    justify-content: space-around; /* Espace entre les éléments */
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: space-around; 
 }
 
 .menu li {
-    margin: 0 15px; /* Marge entre les éléments */
+    margin: 0 15px; 
 }
 
 .menu a {
-    color: white; /* Couleur du texte */
-    text-decoration: none; /* Supprime le soulignement */
-    padding: 10px 15px; /* Espacement interne */
-    transition: background-color 0.3s; /* Effet de transition */
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+    transition: background-color 0.3s; 
 }
 
 .menu a:hover {
